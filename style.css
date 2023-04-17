@@ -470,10 +470,22 @@ html{
     justify-content: center;
   }
   
-  video {
+  .video-reel{
     margin: 0 auto;
     display: block;
   }
+
+  .video-reel {
+    position: relative;
+    width: 100%;
+  }
+  
+  .video-reel video {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+  
   
 .portfolio{
     background-color: #252A2E;
